@@ -1,0 +1,26 @@
+.p-login {
+  background: #ecf4ff;
+  .m-login {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    .u-title{
+      line-height: 3;
+      text-align: center;
+      color: #666;
+      .icon{
+        width:40px;
+        height: 40px;
+      }
+    }
+    .u-form {
+      .login-form-forgot {
+        float: right;
+      }
+  
+      .login-form-button {
+        width: 100%;
+      }
+    }
+  }
+}
