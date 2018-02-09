@@ -4,14 +4,11 @@ node_js:
   - '8'
 cache: yarn
 addons:
-  chrome: stable
   apt:
     packages:
       - sshpass
-before_install:
-  - google-chrome-stable --headless --disable-gpu --remote-debugging-port=9876 http://localhost
 install:
   - npm i npminstall && npminstall
 script:
-  - npm run ci
+  - npm run lint
   - npminstall codecov && codecov
