@@ -7,13 +7,15 @@ import { AppRoutingModule } from './/app-routing.module';
 import { LoginComponent } from './login/login.component';
 import { FrameComponent } from './frame/frame.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    FrameComponent
+    FrameComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

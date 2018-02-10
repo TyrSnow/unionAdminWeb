@@ -1,0 +1,29 @@
+:host ::ng-deep .logo {
+  height: 32px;
+  background: #EEE;
+  border-radius: 6px;
+  margin: 16px;
+  overflow: hidden;
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+    vertical-align: top;
+  }
+  .logo-text {
+    color: #333;
+    font-size: 20px;
+  }
+}
+
+:host ::ng-deep .ant-layout-sider-collapsed .nav-text {
+  display: none;
+}
+
+:host ::ng-deep .ant-layout-sider-collapsed .ant-menu-submenu-title:after {
+  display: none;
+}
+
+:host ::ng-deep .ant-layout-sider-collapsed .anticon {
+  font-size: 16px;
+  margin-left: 8px;
+}

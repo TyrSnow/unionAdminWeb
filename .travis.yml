@@ -12,3 +12,6 @@ install:
 script:
   - npm run lint
   - npminstall codecov && codecov
+branches:
+  - only:
+    - master
